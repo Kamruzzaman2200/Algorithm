@@ -71,7 +71,7 @@ void merge(int arr[],int l,int m,int r)
     }
 
     clock_t startTime =clock();
-
+    
     margeSort(arr,0,9);
     clock_t endTime = clock();
     double timeTaken =double(endTime-startTime)/CLOCKS_PER_SEC;
